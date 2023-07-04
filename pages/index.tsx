@@ -14,6 +14,7 @@ import { openSource, showContactUs } from '../portfolio';
 import SEO from '../components/SEO';
 import Contact from '../components/ContactUs';
 import { GithubUserType } from '../types';
+import Research from '../containers/Research';
 
 export default function Home({
   githubProfileData,
@@ -29,6 +30,7 @@ export default function Home({
       <Proficiency />
       <Education />
       <Experience />
+      <Research/>
       <Feedbacks />
       <Projects />
       {showContactUs ? <Contact /> : null}

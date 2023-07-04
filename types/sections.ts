@@ -55,6 +55,7 @@ export type EducationType = {
   schoolName: string;
   subHeader: string;
   duration: string;
+  companyLogo: string;
   desc: string;
   grade?: string;
   descBullets?: string[];

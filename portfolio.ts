@@ -10,6 +10,7 @@ import {
   SocialLinksType,
   GreetingsType,
 } from './types/sections';
+import { link } from 'fs';
 
 export const greetings: GreetingsType = {
   name: 'Pratyush Pandey',
@@ -167,24 +168,22 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:jenkins',
         },
       ],
-    },
+    }
+  ],
+};
+export const researchSection: SkillsSectionType = {
+  title: 'Research Experience',
+  subTitle: 'Graduate Services Assistant - Blockchain Research Lab at ASU',
+  data: [
     {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+      title: 'Decentralized Data Exchange Marketplace',
+      lottieAnimationFile: '/lottie/skills/research.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
+        'Working on research projects to find solutions for enabling data exchange for model training while ensuring privacy of user Data and Algorithm',
+        'Built a decentralized data exchange marketplace application to purchase, sell, and compute Data and Algorithm NFT',
+        'Developed a React / Node.JS application, utilizing GraphQL API and secured funding from firms.',
+          'Working on building application with functionalities to collect user images, train models and reward user for every imageset used',
+        'Performing research and exploring ways to revoke data access rights and use Federated Maching Learning.'
       ],
       softwareSkills: [
         {
@@ -214,15 +213,27 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Backend',
+    progressPercentage: '90',
   },
   {
-    Stack: 'Backend',
-    progressPercentage: '70',
+    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    progressPercentage: '60', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Programming',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Data Structures and Algorithms',
+    progressPercentage: '80',
+  },
+  {
+    Stack: 'System Design',
+    progressPercentage: '70',
+  },
+  {
+    Stack: 'Databases',
     progressPercentage: '60',
   },
 ];
@@ -233,7 +244,7 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Master of Science in Computer Science and Engineering',
     duration: 'August 2022 - May 2024',
     companyLogo: '/img/icons/common/asu-logo.png',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: '',
     grade: 'Grade 4.00 GPA',
     descBullets: [
       'Completed coursework in Cloud Computing, Software Security, Algorithms, Deep Learning',
@@ -344,16 +355,16 @@ export const projects: ProjectType[] = [
 ];
 
 export const feedbacks: FeedbackType[] = [
-  // {
-  //   name: 'John Smith',
-  //   feedback:
-  //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  // },
-  // {
-  //   name: 'John Smith',
-  //   feedback:
-  //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  // },
+  {
+    name: 'John Smith',
+    feedback:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+  },
+  {
+    name: 'John Smith',
+    feedback:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+  },
 ];
 
 // option to hide or show the ContactUs component

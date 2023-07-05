@@ -35,21 +35,21 @@ const ResearchSection = () => {
 
                   <CardBody className="">
                     <img
-              src='/img/icons/common/asu-logo.webp'
-              style={{
-                objectFit: 'contain',
-                left: 0,
-                right: 0,
-                top: '7rem',
-                marginLeft: 'auto',
-                marginRight: 'auto',
-                width: '8rem',
-                height: '8rem',
-                borderRadius: '0%',
-              }}
-              className=""
-              alt='/img/icons/common/asu-logo.webp'
-            />
+                      src="/img/icons/common/asu-logo.webp"
+                      style={{
+                        objectFit: 'contain',
+                        left: 0,
+                        right: 0,
+                        top: '7rem',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        width: '8rem',
+                        height: '8rem',
+                        borderRadius: '0%',
+                      }}
+                      className=""
+                      alt="/img/icons/common/asu-logo.webp"
+                    />
                     <CardTitle tag="h4" className="mb-2">
                       {section.title}
                     </CardTitle>
@@ -81,15 +81,15 @@ const ResearchSection = () => {
                       {/* {section.skills[0]} */}
                       <ul>
                         {section.skills
-                          ? section.skills.map((desc) => {
-                              return <li key={desc}>{desc}</li>;
+                          ? section.skills.map((desc,i) => {
+                              return <li key={i}>{desc}</li>;
                             })
                           : null}
                       </ul>
-                      <div className = 'd-flex justify-content-center flex-wrap mb-2'>
+                      <div className="d-flex justify-content-center flex-wrap mb-2">
                         <Button
                           className="btn-icon"
-                          color="success"
+                          color="info"
                           href="https://atlanteansdex.netlify.app/"
                           target="_blank"
                           rel="noopener"

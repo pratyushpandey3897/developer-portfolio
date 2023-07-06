@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Container, Row, Col, Fade } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 
@@ -33,6 +33,7 @@ const Greetings = () => {
                     {greetings.title + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
+                  
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -48,10 +49,16 @@ const Greetings = () => {
                       </Button>
                     </div>
                   )}
+                  
+
                 </Col>
                 <Col lg="6">
                   <GreetingLottie animationPath="/lottie/coding.json" />
+                  <h3 className="display-4 text-white">
+                Seeking Fall 2023 internships or Full-Time opportunities in Software Engineering roles
+                  </h3>
                 </Col>
+                
               </Row>
             </div>
           </Container>

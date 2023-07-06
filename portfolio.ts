@@ -40,10 +40,27 @@ export const skillsSection: SkillsSectionType = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Developing responsive application using React and Angular'),
-        emoji('⚡ Building web pplication using Java, NodeJS'),
         emoji(
-          '⚡ Building RESTful APIs and services using Spring and Nest JS frameworks'
+          '⚡ Proficient in Java programming language, with experience in developing robust and scalable applications using Java'
+        ),
+        emoji(
+          '⚡ Skilled in building server-side applications using Spring Boot and Spring framework, leveraging features like dependency injection, MVC architecture, and AOP'
+        ),
+        emoji(
+          '⚡ Strong knowledge of Node.js and experience in developing server-side applications using Express.js or other frameworks'
+        ),
+        emoji(
+          '⚡ Proficient in front-end development using React, Angular, and HTML5, with a solid understanding of modern UI/UX principles'
+        ),
+        emoji('⚡ Experience in designing and implementing RESTful APIs'),
+        emoji(
+          '⚡ Proficient in writing unit tests for Java and JavaScript applications, using frameworks like JUnit and Qunit'
+        ),
+        emoji(
+          '⚡ Familiarity with front-end frameworks like Bootstrap, enabling rapid and responsive web development.'
+        ),
+        emoji(
+          '⚡ Proficient in front-end development using React, Angular, and HTML5, with a solid understanding of modern UI/UX principles'
         ),
       ],
       softwareSkills: [
@@ -99,10 +116,26 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji('⚡ Experience with multiple Cloud Platforms'),
         emoji(
-          '⚡ Deploying web applications on virtual machine instances along with database integrations'
+          '⚡ Familiarity with GCP and AWS services and infrastructure, enabling scalable and resilient cloud-based solutions'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for integration testing & deployment using Github Actions'
+          '⚡ Building CI/CD pipelines for integration testing & deployment using Github Actions, CircleCI and Jenkins'
+        ),
+        emoji(
+          '⚡ Proficient in version control and collaborative software development using Git'
+        ),
+        emoji('⚡ Skilled in serverless computing using AWS Lambda'),
+        emoji(
+          '⚡ Experienced in managing private cloud infrastructure using OpenStack, enabling self-service and resource orchestration'
+        ),
+        emoji(
+          '⚡ Experience infrastructure-as-code using Terraform to provision and manage cloud resources in a declarative manner'
+        ),
+        emoji(
+          '⚡ Proficient in Docker for portable deployments and Kubernetes for container orchestration'
+        ),
+        emoji(
+          '⚡ Proficient in working with relational databases, including MySQL and PostgreSQL, for data storage and retrieval'
         ),
       ],
       softwareSkills: [
@@ -168,7 +201,7 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:jenkins',
         },
       ],
-    }
+    },
   ],
 };
 export const researchSection: SkillsSectionType = {
@@ -182,8 +215,8 @@ export const researchSection: SkillsSectionType = {
         'Working on research projects to find solutions for enabling data exchange for model training while ensuring privacy of user Data and Algorithm',
         'Built a decentralized data exchange marketplace application to purchase, sell, and compute Data and Algorithm NFT',
         'Developed a React / Node.JS application, utilizing GraphQL API and secured funding from firms.',
-          'Working on building application with functionalities to collect user images, train models and reward user for every imageset used',
-        'Performing research and exploring ways to revoke data access rights and use Federated Maching Learning.'
+        'Working on building application with functionalities to collect user images, train models and reward user for every imageset used',
+        'Performing research and exploring ways to revoke data access rights and use Federated Maching Learning.',
       ],
       softwareSkills: [
         {
@@ -277,7 +310,7 @@ export const research: ExperienceType[] = [
       'Built a decentralized data exchange marketplace application to purchase, sell, and compute Data and Algorithm NFT',
       'Developed a React / Node.JS application, utilizing GraphQL API and secured funding from firms.',
       'Working on building application with functionalities to collect user images, train models and reward user for every imageset used.',
-      'Performing research and exploring ways to revoke data access rights and use Federated Maching Learning. '
+      'Performing research and exploring ways to revoke data access rights and use Federated Maching Learning. ',
     ],
   },
 ];
@@ -328,14 +361,15 @@ export const experience: ExperienceType[] = [
       'Led the JUnit and Selenium testing activities and achieved 75% code coverage for each file',
       'Enhanced the LTE Performance module used by leading 20 Telecom operators worldwide, slashing bug counts by 60%',
     ],
-  }
+  },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: 'AWS IaaS Scalable Image Recognition Service',
     desc: 'A cloud-based application that provides image recognition as a service to its users. The application accepts images from the user, and uses cloud-based SAAS to perform image recognition and return the most relevant label for the image. Built a scalable Java Springboot image recognition application using SQS, EC2, S3, and Cloudwatch. Exposed REST services and implemented dynamic scaling policies to ensure efficient resource utilization.',
-    github: 'https://github.com/pratyushpandey3897/AWS-IaaS-ScalableImageRecognitionService'
+    github:
+      'https://github.com/pratyushpandey3897/AWS-IaaS-ScalableImageRecognitionService',
   },
   {
     name: 'AWS Face Recognition Smart Classroom (Serverless Application)',

@@ -323,7 +323,7 @@ export const experience: ExperienceType[] = [
     date: 'May 2022 – Present',
     desc: 'I work as full stack web developer intern in the Rocket Logic team. I am developing and architecting a Prod-Push-Planner tool to automate and streamline the process of Release Notes generation',
     descBullets: [
-      'Designed a cloud based application for automating release-notes generation encompassing microservices dependency mapping and rollback links, reducing manual effort by 90% and achieving a 60% faster production release planning process'
+      'Designed a cloud based application for automating release-notes generation encompassing microservices dependency mapping and rollback links, reducing manual effort by 90% and achieving a 60% faster production release planning process.',
       'Integrated GitHub and MS Teams to streamline communication and storage of release notes during the release process.',
       'Designed and implemented the system architecture of the application, focusing on the backend development using the NestJS framework.',
       'Developed APIs for application search and fetching rollback links in case of technical incidents.',

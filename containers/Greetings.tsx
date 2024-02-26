@@ -55,7 +55,7 @@ const Greetings = () => {
                 <Col lg="6">
                   <GreetingLottie animationPath="/lottie/coding.json" />
                   <h3 className="display-4 text-white">
-                Seeking Fall 2023 internships or Full-Time opportunities in Software Engineering roles
+                Seeking Full-Time opportunities in Software Engineering roles
                   </h3>
                 </Col>
                 

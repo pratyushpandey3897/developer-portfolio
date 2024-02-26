@@ -280,7 +280,7 @@ export const educationInfo: EducationType[] = [
     desc: '',
     grade: 'Grade 4.00 GPA',
     descBullets: [
-      'Completed coursework in Cloud Computing, Software Security, Algorithms, Deep Learning',
+      'Completed coursework in Cloud Computing, Distributed Database Systems, Software Security, Algorithms, Deep Learning',
       'Working at The Blockchain Research Lab under Dr. Dragan Boscovic',
     ],
   },
@@ -321,15 +321,17 @@ export const experience: ExperienceType[] = [
     company: 'Rocket Mortgage',
     companyLogo: '/img/icons/common/rocket-mortgage-1.png',
     date: 'May 2022 – Present',
-    desc: 'I work as full stack web developer intern in the Rocket Logic team. I am developing and architecting a Prod-Push-Planner tool to automate and streamline the process of Release Notes generation.',
+    desc: 'I work as full stack web developer intern in the Rocket Logic team. I am developing and architecting a Prod-Push-Planner tool to automate and streamline the process of Release Notes generation',
     descBullets: [
+      'Designed a cloud based application for automating release-notes generation encompassing microservices dependency mapping and rollback links, reducing manual effort by 90% and achieving a 60% faster production release planning process'
       'Integrated GitHub and MS Teams to streamline communication and storage of release notes during the release process.',
-      'Designed and implemented the system architecture of the application, focusing on the backend development using the Nest JS framework.',
+      'Designed and implemented the system architecture of the application, focusing on the backend development using the NestJS framework.',
       'Developed APIs for application search and fetching rollback links in case of technical incidents.',
       'Utilized Angular to create a responsive Single-Page Application for the front-end.',
       'Implemented CI/CD pipelines using CircleCI for efficient software delivery.',
-      'Deployed the front-end application using Amazon CloudFront for improved performance and scalability.',
-      'Leveraged Docker and AWS EKS to deploy and scale the backend service effectively.',
+      'Deployed the front-end application using Amazon CloudFront CDN for improved performance and scalability.',
+      'Leveraged Docker, Kuberenetesm Helm Charts, Rancher and AWS EKS for service orchestration and to deploy and scale the backend service effectively.',
+      'Received the Best Project Award for exceptional software design, usability, and scalability amongst all internship project teams'
     ],
   },
   {

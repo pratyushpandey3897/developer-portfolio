@@ -18,7 +18,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a Computer Science and Engineering student at Arizona State University. As a passionate software developer, I specialize in cloud-native application development. With 3+ years of experience, I excel in building scalable enterprise-grade solutions. My skills encompass Cloud Computing Technologies, test-driven development, and agile methodologies. Let's collaborate and make a lasting impact with innovative projects.",
   resumeLink:
-    'https://www.linkedin.com/in/pratyush-pandey-prat/overlay/1635521190601/single-media-viewer/?profileId=ACoAAB1a6KwBM7GaN_EHQ_TCDXDfdSu6shdie4E',
+    'https://drive.google.com/file/d/1L7RSTZ0QCEULD6UhYeb62emvZgYvkyNH/view',
 };
 
 export const openSource = {
